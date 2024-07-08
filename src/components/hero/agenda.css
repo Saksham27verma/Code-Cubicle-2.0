@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .section2 {
   position: relative;
   isolation: isolate;
@@ -48,11 +50,22 @@
   align-items: center;
 }
 
+.agenda .title2 .img {
+  z-index: 10;
+}
+
+.agendaBulletPoint{
+  z-index: 100;
+}
+
 .agenda .title2 .title-name {
   font-size: 45px;
+  color: white;
+
   margin-left: 6vw;
-  font-family: "russo one";
-  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
   display: flex;
   align-items: center;
   gap: 2vw;
@@ -65,7 +78,7 @@
 
 .title-name::after {
   content: "";
-  z-index: -1;
+  z-index: 10;
   border-bottom: 4px solid #d500ed;
   border-image: linear-gradient(
     to right top,
@@ -219,23 +232,16 @@
   width: 50%;
   text-align: justify;
   padding: 2vh 2vw;
-  border-top: 5px solid;
-  border-left: 5px solid;
-  border-bottom: 5px solid;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
   border-image: linear-gradient(
     to right top,
-    #bf00ff,
-    #d500ed,
-    #e400db,
-    #f000cb,
-    #f800bc,
-    #fb00b0,
-    #fc00a4,
-    #fd0099,
-    #fb008d,
-    #f80082,
-    #f40077,
-    #f0006d
+    white,
+    
+    gray,
+    whitesmoke,
+    black
   );
   border-image-slice: 1;
   font-family: raleway;
@@ -259,8 +265,9 @@
   inset: 0;
   z-index: -1;
   background-size: cover;
+  opacity: 0.1;
   background-position: center;
-  background-image: url("/images/bg11.webp");
+
   /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12'%3E%3Cpath d='M9.8 12 0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z' fill='%239C92AC' fill-opacity='.26' fill-rule='evenodd'/%3E%3C/svg%3E"); */
 }
 
@@ -313,23 +320,19 @@
   width: 50%;
   text-align: justify;
   padding: 2vh 2vw;
-  border-top: 5px solid;
-  border-right: 5px solid;
-  border-bottom: 5px solid;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
   border-image: linear-gradient(
     to right top,
-    #bf00ff,
-    #d500ed,
-    #e400db,
-    #f000cb,
-    #f800bc,
-    #fb00b0,
-    #fc00a4,
-    #fd0099,
-    #fb008d,
-    #f80082,
-    #f40077,
-    #f0006d
+
+    white,
+    black,
+    
+    gray,
+    black,
+    whitesmoke,
+    
   );
   border-image-slice: 1;
   font-family: raleway;
@@ -354,7 +357,7 @@
   z-index: -1;
   background-size: cover;
   background-position: center;
-  background-image: url("/images/bg11.webp");
+
 }
 
 .agendaScrollAnimateRight {

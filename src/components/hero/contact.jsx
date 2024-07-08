@@ -28,7 +28,7 @@ const contact = () => {
       <div id="contact" className="parent-contact">
         <div className="contact-title">
           <img src="/images/rrr.webp" alt="arrow-logo" />
-          Contacts
+          Lead Organisers
         </div>
         <div className="parent-container">
           {/* -----------------------------------------Contact 1 ------------------------------------------- */}
@@ -38,7 +38,7 @@ const contact = () => {
                 <div className="contact-card-front">
                   <img src="/images/shree.webp" alt="shree - president CSI" />
                   <div className="contact-card-details">
-                    <h1 className="contact-card-name">Shree N</h1>
+                    <h1 className="contact-card-name">Ayon Roy</h1>
                     <h2 className="contact-card-description">
                       President - CSI
                     </h2>

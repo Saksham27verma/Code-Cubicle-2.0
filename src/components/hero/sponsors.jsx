@@ -5,50 +5,41 @@ import Contact from "./contact";
 import Faqs from "./faqs";
 import Convener from "./convener";
 import Coordinators from "./coordinators";
+import Prizes from "../prizes/prizes";
 const sponsors = () => {
   return (
     <React.Fragment>
       <div className="parent-sponsors">
+
         <h1 className="sponsors-title">
-          Sponsor
-          <img src="/images/rrr.webp" alt="arrow-logo" />
+          Our Sponsors
+          <img src="/images/BulletPoint.svg" alt="arrow-logo" />
         </h1>
-        <div className="sponsors-container">
-          <div className="sponsors-border">
-            <div>
-              <img src="/images/hebesec.webp" alt="Hebesec Technologies" />
-            </div>
-            <div className="sponsors-container-sub">
-              <h1 className="sponsor-title">
-                <a href="https://hebesec.com/" target="_blank">
-                  {" "}
-                  Hebesec Technologies{" "}
-                </a>
-              </h1>
-            </div>{" "}
-            <LaunchLink className="link-launch-icon" />
-          </div>
-        </div>
-        <div className="sponsors-container">
-          <div className="sponsors-border">
-            <div>
-              <img src="/images/hebesec.webp" alt="Hebesec Technologies" />
-            </div>
-            <div className="sponsors-container-sub">
-              <h1 className="sponsor-title">
-                <a href="https://hebesec.com/" target="_blank">
-                  {" "}
-                  Hearing Hope{" "}
-                </a>
-              </h1>
-            </div>{" "}
-            <LaunchLink className="link-launch-icon" />
-          </div>
-        </div>
+
+        <section class="grid-container">
+    <div class="grid grid-5-cols gap-4 grid-items-center">
+        <img src="/images/discord.svg" alt="brand1" class="brand-image large-image" />
+        <img src="/images/discord.svg" alt="brand2" class="brand-image large-image" />
+        <img src="/images/discord.svg" alt="brand3" class="brand-image large-image" />
+        <img src="/images/discord.svg" alt="brand4" class="brand-image large-image" />
+        <img src="/images/discord.svg" alt="brand5" class="brand-image large-image" />
+    </div>
+
+    <div class="grid grid-4-cols gap-4 grid-items-center mt-4 large-mt-8">
+        <img src="/images/discord.svg" alt="brand6" class="brand-image medium-image" />
+        <img src="/images/discord.svg" alt="brand7" class="brand-image medium-image" />
+        <img src="/images/discord.svg" alt="brand8" class="brand-image medium-image" />
+        <img src="/images/discord.svg" alt="brand9" class="brand-image medium-image" />
+    </div>
+</section>
+
+
+          
+        <Prizes />
         <Faqs />
-        <Contact />
-        <Convener />
-        <Coordinators />
+                <Convener />
+<Contact />
+
       </div>
     </React.Fragment>
   );

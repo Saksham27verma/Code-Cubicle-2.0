@@ -1,6 +1,7 @@
 .parent {
   font-family: "oswald";
-  color: white;
+  color: black;
+  background-color: black;
   padding: 1vh 1vw 1vh 1vw;
   position: sticky;
   z-index: 99;
@@ -20,7 +21,7 @@
 .parent .title::after {
   content: "";
   position: absolute;
-  border-left: 4px solid rgb(0, 116, 251);
+
   height: 0vh;
   top: 6vh;
   left: 2.2vw;
@@ -172,13 +173,13 @@
   margin: 0;
 }
 .parent-navbar-mobile {
-  margin: 0.5vh 1vw;
+
   position: relative;
   padding: 0.5vh 1vw;
   font-family: Oswald;
   color: white;
   background-color: black;
-  border-radius: 3vw;
+
   transition: all 0.3s linear;
   height: 6vh;
   display: none;

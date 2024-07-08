@@ -32,8 +32,8 @@ const section2 = () => {
       <div className="section2">
         <div className="agenda" id="agenda">
           <div className="title2">
-            <img src="/images/rrr.webp" alt="arrow-logo" />
-            <h1 className="title-name">Agenda</h1>
+          <img className="agendaBulletPoint" src="/images/BulletPoint.svg" alt="arrow-logo" />
+            <h1 className="title-name">About Code Cubicle</h1>
           </div>
           {/* <div className="agenda-text">
             <div className="agenda-lottie-animation">
@@ -74,7 +74,7 @@ const section2 = () => {
                 width="300px"
                 className="about-vision-image"
               />
-              Vision
+              
             </div>
             <div className="about-vision-description" id="agenda-right">
               Empowering Innovators to Transform Tomorrow. Our hackathon
@@ -94,7 +94,7 @@ const section2 = () => {
                 width={"250px"}
                 className="about-mission-image"
               />
-              Mission
+
             </div>
             <div className="about-mission-description" id="agenda-left">
               Fueling innovation, our hackathon is a nexus of minds reimagining

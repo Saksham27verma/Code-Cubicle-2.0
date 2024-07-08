@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .parent_hero {
   padding-right: 1vw;
   padding-left: 6vw;
@@ -14,7 +16,7 @@
   z-index: -2;
   inset: 0;
   opacity: 1;
-  background-image: url("/images/GridBackground4.svg");
+  background-image: url("/images/GridBackground4svg.svg");
 }
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .parent_hero::after {
@@ -23,7 +25,13 @@
     z-index: -2;
     inset: 0;
     opacity: 1;
-    background-image: url("/images/GridBackground4.svg");
+    background-image: url("/images/GridBackground4svg.svg");
+  }
+}
+
+.parent_hero .tag{
+  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+    display: none;
   }
 }
 
@@ -36,21 +44,22 @@
   padding: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start ;
     align-items: center;
     gap: 2vw;
   }
 }
 
 .hero-srm-logo {
+  
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-    width: 10vw;
+    width: 20vw;
   }
 }
 
 .hero-srmvec-logo {
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-    width: 15vw;
+    width: 25vw;
   }
 }
 
@@ -58,7 +67,7 @@
   position: relative;
   font-family: poppins;
   font-weight: 500;
-  color: black;
+  color: white;
   border: 1px solid grey;
   font-size: 1.1vw;
   padding: 0vh 0.4vw;
@@ -71,6 +80,7 @@
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 2.5vw;
     padding: 0.2vh 1vw;
+    display: none;
     margin-top: 3vh;
     text-align: center;
     font-weight: 600;
@@ -106,11 +116,11 @@
 .parent_hero .title1 {
   position: relative;
   color: white;
-  font-size: 4.7vw;
+  font-size: 5.7vw;
   text-transform: uppercase;
   font-weight: 600;
   line-height: 110%;
-  font-family: liger;
+  font-family:sans-serif;
   margin-top: 3vh;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 9vw;
@@ -160,7 +170,9 @@
 }
 .parent_hero .title1 .hackathon {
   position: relative;
-  font-family: liger;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 .parent_hero .title1 .hackathon::after {
   content: "";
@@ -170,7 +182,8 @@
   width: 0;
   left: 0;
   bottom: 1vh;
-  background: rgb(243, 158, 172, 0.7);
+  background:whitesmoke;
+  opacity: 0.3;
   animation: line 1s ease-in-out forwards;
 }
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -207,24 +220,24 @@
   margin-top: 5vh;
   position: relative;
   padding: 0.5vh 0.5vw;
-  background-color: black;
-  border-radius: 2vw;
+  background-color: #3770ff;
+  border-radius: 2%;
   cursor: pointer;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 20vw;
+  width: 15vw;
   height: fit-content;
   transition: all 0.3s ease-in-out;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     margin-top: 2vh;
     padding: 0 1vw;
-    width: 60vw;
+    width: 50vw;
   }
 }
 .register_now:hover {
-  width: 21vw;
+  width: 16vw;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     width: 62vw;
   }
@@ -232,9 +245,9 @@
 .register_now a {
   text-decoration: none;
   font-size: 1.4vw;
-  letter-spacing: -6px;
+  letter-spacing: 3px;
   color: white;
-  font-family: mars;
+  font-family: Poppins;
   font-weight: bold;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 4vw;
@@ -251,6 +264,7 @@
   font-size: 3vw;
   font-family: "Franklin Gothic Medium";
   align-items: center;
+
   font-weight: 600;
   background-color: #6b0f1a;
   background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
@@ -276,6 +290,15 @@
     overflow: hidden;
     padding: 1vh 1vw;
   }
+}
+
+.socialicons{
+  margin: 1vw;
+  align-items: center;
+}
+
+.socialiconsitem{
+  margin: 0.5vw;
 }
 
 .countdown::after {
@@ -312,12 +335,15 @@
 .min-card::after,
 .sec-card::after {
   content: "";
+  align-items: center;
   position: absolute;
   inset: 0;
   z-index: -1;
   opacity: 1;
   background: rgb(255, 255, 255, 0.1);
 }
+
+
 .sep {
   color: white;
   margin-bottom: 5vh;
@@ -341,6 +367,10 @@
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 10vw;
   }
+}
+
+.countdown .seconds {
+  color: #ff7a00;
 }
 .right_side {
   display: grid;
@@ -396,11 +426,12 @@
   margin-top: 9vh;
   height: fit-content;
   background-repeat: no-repeat;
+  border: 1px solid #ff7a00;
   background-size: cover;
   border-radius: 1vw;
   background-color: #4d4855;
   background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
-  background-image: url("/images/planet2.webp");
+  background-image: url("/images/1stBG.png");
   isolation: isolate;
   transition: all 0.1s linear;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -524,9 +555,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1vw;
-  background-color: #4d4855;
+  background-color:gray;
   background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
-  background-image: url("/images/light.webp");
+  background-image: url("/images/InformationDetailsCardBG.png");
   isolation: isolate;
   overflow: hidden;
   transition: all 0.1s linear;
@@ -604,10 +635,10 @@
   position: relative;
   height: fit-content;
   padding: 1vw;
-  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 1vw;
-  background-color: #4d4855;
-  background-image: url("/images/motherboard.webp");
+
+  background-image: url("/images/ProblemStatementsCardBG.png");
   isolation: isolate;
   overflow: hidden;
   border: 0.2vw solid black;
@@ -619,28 +650,7 @@
   }
 }
 
-.right_side .col3::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  backdrop-filter: blur(3px);
-  background-color: rgb(213, 254, 253);
-  background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
-  opacity: 0.4;
-  animation: dissolve 7s infinite alternate;
-}
-@keyframes dissolve {
-  0% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
+
 .right_side .col3 .text7 {
   color: purple;
   text-transform: uppercase;
@@ -692,8 +702,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 1vw;
-  background-color: #537895;
-  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+
+  background-image: url("/images/VenueCardBG.svg");
   isolation: isolate;
   overflow: hidden;
   transition: all 0.1s linear;
@@ -715,16 +725,23 @@
 
 .right_side .col4 .text10,
 .text13 {
-  color: white;
+  color:black;
   font-weight: 600;
   font-size: 1.2vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px dotted white;
+  border-bottom: 2px dotted black;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 6vw;
   }
+}
+.text13 {
+  border-bottom: 2px dotted white;
+}
+
+.white{
+  color: white;
 }
 
 .location-icon {
@@ -739,7 +756,7 @@
   font-family: zeniq;
   font-size: 0.92vw;
   padding-top: 2vh;
-  color: white;
+  color: black;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 3.5vw;
     padding-top: 1.5vh;

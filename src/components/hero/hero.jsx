@@ -5,6 +5,7 @@ import KeyboardDoubleArrowRightSharpIcon from "@mui/icons-material/KeyboardDoubl
 import VanillaTilt from "vanilla-tilt";
 import Agenda from "./agenda";
 import Schedule from "./schedule";
+import { SocialIcon } from "react-social-icons";
 import Sponsors from "./sponsors";
 import { Footer } from "../";
 import { ReactComponent as Calender } from "../../assets/calender.svg";
@@ -12,15 +13,48 @@ import { ReactComponent as Info } from "../../assets/info.svg";
 import { ReactComponent as Location } from "../../assets/location.svg";
 import { ReactComponent as ArrowRightWhite } from "../../assets/arrow-right-white.svg";
 import { ReactComponent as ArrowRightBlack } from "../../assets/arrow-right-black.svg";
+import Prizes from "../prizes/prizes";
+
+
+
 
 const hero = () => {
+
+  const handleInsta = () => {
+    ReactGA.event({
+      category: "Social Icon",
+      action: "click",
+      label: "Instagram",
+    });
+    window.open("https://www.instagram.com/code_cubicle_2.0/p/C8mT1EjBzVp/");
+
+  };
+  const handleDiscord = () => {
+    ReactGA.event({
+      category: "Social Icon",
+      action: "click",
+      label: "Discord",
+    });
+    window.open("https://discord.com/invite/7TEVm4pmMv");
+
+  };
+  const handleWhatsapp = () => {
+    ReactGA.event({
+      category: "Social Icon",
+      action: "click",
+      label: "Whatsapp",
+    });
+    window.open("https://chat.whatsapp.com/HyH4G4GLYnsG6w6gr3F4Dv");
+
+  };
+
   const handleRegisterClick = () => {
     ReactGA.event({
       category: "Button",
       action: "click",
       label: "register",
     });
-    window.open("https://forms.gle/mqHSf1kpoTUiMURH6");
+    window.open("https://code-cubicle-2.devfolio.co");
   };
   const handleCardClicks = (card) => {
     ReactGA.event({
@@ -94,20 +128,20 @@ const hero = () => {
         {/* <div className="progress_bar"></div> */}
         <div className=" tag-hero-mobile">
           <img
-            src="/images/srm.webp"
+            src="/images/CCLogo.png"
             alt="srm logo"
-            width="40vw"
+            width="80vw"
             className="hero-srm-logo"
           />
           <div className="tag">
             <div>
-              <div>Celebrating 25</div>
-              <span>th</span>
+              <div>Geek room ki Aan Baan Shaan</div>
+
             </div>
-            Foundation Day of SRMVEC
+            
           </div>
           <img
-            src="/images/srmvec.webp"
+            src="/images/GeekRoomLogo.svg"
             alt="srmvec logo"
             width="60vw"
             className="hero-srmvec-logo"
@@ -120,8 +154,10 @@ const hero = () => {
             <div className="curve"></div>
 
             <div className="title1">
-              <span className="hackathon"> {"Code Cubicle 2.0"}</span>
+              <span className="hackathon"> {"Code Cubicle  "}</span>
               <br />
+              <span className="hackathon"> {"2.0"}</span>
+              
               {/* <p className="tag1"> A National Level 24 Hour Hackathon</p> */}
               {/* <span className="hackathon">Hackathon</span> */}
               <p className="description">
@@ -133,11 +169,11 @@ const hero = () => {
 
             <div className="register_now" onClick={handleRegisterClick}>
               <div>
-                <a>REGISTER NOW </a>
+                <a>REGISTER </a>
               </div>
               <div>
                 {" "}
-                <KeyboardDoubleArrowRightSharpIcon style={{ fontSize: 35 }} />
+                <img src="../../public/Images/Devfolio logo.png" width={30}></img>
               </div>
             </div>
             <div className="countdown-main">
@@ -173,11 +209,10 @@ const hero = () => {
 
             <div className="col1 animated-div">
               <h3 className="text">
-                <div>
+                
                   <div>
-                    <div> 8</div> <div> th</div>{" "}
-                  </div>{" "}
-                  September
+                    Event Insights 
+               
                 </div>
                 <Calender className="calender-icon" />
               </h3>
@@ -211,11 +246,9 @@ const hero = () => {
                 <h3 className="text7">Problem Statements</h3>
               </div>
               <p className="text8" onClick={() => handleCardClicks("/set1")}>
-                Collection 1 <ArrowRightBlack className="arrow-right-icon" />
+                Click here <ArrowRightBlack className="arrow-right-icon" />
               </p>
-              <p className="text9" onClick={() => handleCardClicks("/set2")}>
-                Collection 2 <ArrowRightBlack className="arrow-right-icon" />
-              </p>
+              
             </div>
             {/* -------------------------- Column 4  ---------------------------------- */}
             <div
@@ -228,8 +261,8 @@ const hero = () => {
                 Venue <Location className="location-icon" />
               </h3>
               <div className="flex flex-col ">
-                <p className="text-white pt-[2vh] text-[1vw] venue-text-mobile">
-                  SRM Valliammai Engineering College
+                <p className="text pt-[2vh] text-[1vw] venue-text-mobile">
+                  Microsoft Office , CyberCity , Gurugram
                 </p>
                 {/* <p className="text-white  text-[0.8vw] ">
                   National Highway 45, Potheri, SRM Nagar, Kattankulathur, Tamil
@@ -241,14 +274,16 @@ const hero = () => {
             {/* -------------------------- Column 5  ---------------------------------- */}
             <div className="col5 "></div>
             {/* -------------------------- Column 6  ---------------------------------- */}
-            <div className="col6 animated-div">
-              <h3 className="text13">
-                Organized By
+            <div className="col6 black animated-div">
+              <h3 className="text13 white">
+                Our Socials
                 <div className="flex justify-center items-center gap-1"></div>
               </h3>
               <div className="flex items-start justify-between flex-col">
-                <p className="text14">SRMVEC CSI Student Branch </p>
-                <p className="text15">Whitehatians Cyber Club - VEC</p>
+                <div className="socialicons">
+                <SocialIcon onClick={handleInsta} className="socialiconsitem"  network="instagram"/>
+                <SocialIcon onClick={handleDiscord} className="socialiconsitem" network="discord" />
+                <SocialIcon onClick={handleWhatsapp} className="socialiconsitem" network="whatsapp" /></div>
                 <div className="round2"></div>
               </div>
             </div>
@@ -261,6 +296,8 @@ const hero = () => {
       <Schedule />
       <div className="bg-sep"></div>
       <Sponsors />
+     
+     
       <Footer />
     </React.Fragment>
   );
