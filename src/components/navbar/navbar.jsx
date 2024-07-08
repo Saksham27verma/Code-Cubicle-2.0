@@ -88,8 +88,8 @@ const Navbar = () => {
         <div className="components">
           <div className="title" onClick={() => window.open("/", "_self")}>
             <img src="/images/diamond.webp" className="logo" alt="Logo" />
-            Hackathon
-            <div className="socials">
+         
+            {/* <div className="socials">
               <div className="insta">
                 <SocialIcon
                   onClick={handleInsta}
@@ -130,8 +130,8 @@ const Navbar = () => {
                     width: "3vw",
                   }}
                 />
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
 
           <ul>
