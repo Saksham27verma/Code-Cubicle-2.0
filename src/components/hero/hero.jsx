@@ -15,11 +15,7 @@ import { ReactComponent as ArrowRightWhite } from "../../assets/arrow-right-whit
 import { ReactComponent as ArrowRightBlack } from "../../assets/arrow-right-black.svg";
 import Prizes from "../prizes/prizes";
 
-
-
-
 const hero = () => {
-
   const handleInsta = () => {
     ReactGA.event({
       category: "Social Icon",
@@ -27,7 +23,6 @@ const hero = () => {
       label: "Instagram",
     });
     window.open("https://www.instagram.com/code_cubicle_2.0/p/C8mT1EjBzVp/");
-
   };
   const handleDiscord = () => {
     ReactGA.event({
@@ -36,7 +31,6 @@ const hero = () => {
       label: "Discord",
     });
     window.open("https://discord.com/invite/7TEVm4pmMv");
-
   };
   const handleWhatsapp = () => {
     ReactGA.event({
@@ -45,7 +39,6 @@ const hero = () => {
       label: "Whatsapp",
     });
     window.open("https://chat.whatsapp.com/HyH4G4GLYnsG6w6gr3F4Dv");
-
   };
 
   const handleRegisterClick = () => {
@@ -127,23 +120,19 @@ const hero = () => {
       <div className="parent_hero">
         {/* <div className="progress_bar"></div> */}
         <div className=" tag-hero-mobile">
-          <img
-            src="/images/CCLogo.png"
-            alt="srm logo"
-            width="80vw"
-            className="hero-srm-logo"
-          />
-          <div className="tag">
-            <div>
-              <div>Geek room ki Aan Baan Shaan</div>
-
-            </div>
-            
+          <div className="ccContainer">
+            <img
+              src="/images/CCFinalLogo.png"
+              alt="srm logo"
+              width="80vh"
+              className="hero-srm-logo"
+            />
           </div>
+
           <img
-            src="/images/GeekRoomLogo.svg"
+            src="/images/GeekRoomLogoFinal.png"
             alt="srmvec logo"
-            width="60vw"
+            width="120vw"
             className="hero-srmvec-logo"
           />
         </div>
@@ -157,13 +146,14 @@ const hero = () => {
               <span className="hackathon"> {"Code Cubicle  "}</span>
               <br />
               <span className="hackathon"> {"2.0"}</span>
-              
+
               {/* <p className="tag1"> A National Level 24 Hour Hackathon</p> */}
               {/* <span className="hackathon">Hackathon</span> */}
               <p className="description">
-                National <span> Level 24 hour Hackathon </span>
-                showcasing innovative solutions
-                <br /> and tech talents from across the country
+              Delhi’s Largest Coding Community brings you the 2
+nd edition of the <span>Code Cubicle</span>, the best
+coding experience in the town.
+
               </p>
             </div>
 
@@ -173,7 +163,10 @@ const hero = () => {
               </div>
               <div>
                 {" "}
-                <img src="../../public/Images/Devfolio logo.png" width={30}></img>
+                <img
+                  src="../../public/Images/Devfolio logo.png"
+                  width={30}
+                ></img>
               </div>
             </div>
             <div className="countdown-main">
@@ -209,11 +202,7 @@ const hero = () => {
 
             <div className="col1 animated-div">
               <h3 className="text">
-                
-                  <div>
-                    Event Insights 
-               
-                </div>
+                <div>Event Insights</div>
                 <Calender className="calender-icon" />
               </h3>
               <p
@@ -232,11 +221,11 @@ const hero = () => {
                 Information Details <Info className="info-icon" />
               </h3>
               <p className="text5" onClick={() => handleCardClicks("/about")}>
-                About
+                About Us
                 <ArrowRightWhite className="arrow-right-icon" />
               </p>
               <p className="text6" onClick={() => handleCardClicks("/judges")}>
-                Judge Panel
+                Mentor Panel
                 <ArrowRightWhite className="arrow-right-icon" />
               </p>
             </div>
@@ -248,13 +237,12 @@ const hero = () => {
               <p className="text8" onClick={() => handleCardClicks("/set1")}>
                 Click here <ArrowRightBlack className="arrow-right-icon" />
               </p>
-              
             </div>
             {/* -------------------------- Column 4  ---------------------------------- */}
             <div
               className="col4 animated-div"
               onClick={() =>
-                window.open("https://goo.gl/maps/iaE4Kko8wqqHs4jx9")
+                window.open("https://maps.app.goo.gl/Hq7Sr4XHvFFDu7f57")
               }
             >
               <h3 className="text10">
@@ -281,9 +269,22 @@ const hero = () => {
               </h3>
               <div className="flex items-start justify-between flex-col">
                 <div className="socialicons">
-                <SocialIcon onClick={handleInsta} className="socialiconsitem"  network="instagram"/>
-                <SocialIcon onClick={handleDiscord} className="socialiconsitem" network="discord" />
-                <SocialIcon onClick={handleWhatsapp} className="socialiconsitem" network="whatsapp" /></div>
+                  <SocialIcon
+                    onClick={handleInsta}
+                    className="socialiconsitem"
+                    network="instagram"
+                  />
+                  <SocialIcon
+                    onClick={handleDiscord}
+                    className="socialiconsitem"
+                    network="discord"
+                  />
+                  <SocialIcon
+                    onClick={handleWhatsapp}
+                    className="socialiconsitem"
+                    network="whatsapp"
+                  />
+                </div>
                 <div className="round2"></div>
               </div>
             </div>
@@ -296,8 +297,7 @@ const hero = () => {
       <Schedule />
       <div className="bg-sep"></div>
       <Sponsors />
-     
-     
+
       <Footer />
     </React.Fragment>
   );

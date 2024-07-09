@@ -12,55 +12,41 @@ const guildelines = () => {
         <div className="guidelines-container">
           <div className="guidelines-content">
             <div className="guidelines-1">
-              1. The teams can have a minimum of 2 members and a maximum of 3
-              members. 🤝👥
+              1. 🌟 Introducing Code Cubicle 2.0: Unlocking Collaboration & Innovation, One Cubicle at a Time!
               <br /> <br />
-              2. The last date for team registration is 25th August 2023. ⏰🗓️{" "}
+              2. 🚀 Join us for an unparalleled tech adventure at Code Cubicle 2.0, the ultimate hackathon brought to you by Geek Room. Dive into the heart of innovation and creativity as we redefine the essence of technology-driven solutions.{" "}
               <br />
               <br />
-              3. The last date for abstract submission is 28th August 2023. 📝🗓️{" "}
+              3.🗓️ Event Schedule:
+Dates: 27th July 2024 (online round) & 3rd August 2024 (offline round){" "}
               <br />
               <br />
-              4. The project should be unique and shouldn't have ever been
-              published in any other journals or competitions. 🚀🔍 <br />
+              4. Venue for Offline Round: Microsoft Corporation India Private Limited, DLF Cyber City, DLF Phase 3, Sector 24, Gurugram, Haryana, India<br />
               <br />
-              5. The event will have three phases of judge review. Projects will
-              be evaluated every 8 hours from the beginning of the finale. 👁️‍🗨️🕒{" "}
+              5. 💰 Prize Pool:
+Worth INR 30,00,000+,
+Cash Prize worth INR 40,000+{" "}
+<br />
               <br />
-              <br />
-              6. The project's work should sustain the whole 24 hours; if it
-              fails to do so, the team will be disqualified immediately. 🏆🕒❌{" "}
-              <br />
-              <br />
-              7. Code of conduct is strictly monitored, and any case of
-              uncivilized behavior will result in the whole team's
-              disqualification. 🚫👮‍♂️❌ <br />
-              <br />
+             6.🎯 Engaging Activities:
+Immerse yourself in live project presentations, elevate your ideas through pitching sessions, and stand out before our esteemed panel of judges. Plus, gear up for a fun-filled games round with exciting prizes up for grabs!{" "}
+<br />
+<br></br>
             </div>
             <div className="guidelines-2">
-              8. The abstract submission round is completely free for all teams
-              that have registered on or before the 25th of August 2023. 🆓📅{" "}
+         
+              7.🎁 Exclusive Perks:
+Indulge in free swags, connect with industry experts through networking sessions, grab awesome goodies, and enjoy complimentary accommodation, meals, and much more.
               <br />
+              <br /> 8. 🌈 Code Cubicle 2.0 goes beyond the ordinary hackathon experience, inviting participants to break barriers and pioneer inventive solutions to real-world challenges.<br />
               <br />
-              9. The shortlisted/scrutinized teams for the finale of
-              "HACK-A-TANK" will be announced by 4:00 pm on the 29th of August
-              2023. 📣🏁 10. The Finale round begins at 10:00 am on 8th
-              September 2023 and concludes at 5:00 pm on the 9th September 2023.
-              🏁🕙🏁
+              9. 👥 Hosted by Geek Room, this event serves as a launchpad for tech enthusiasts to showcase their talents and unleash their full potential. With a perfect blend of competition, learning, and groundbreaking innovation, Code Cubicle promises an unforgettable journey for all tech enthusiasts.<br />
               <br />
-              <br /> 11. The finale round will be offline and held at our SRM
-              VALLIAMMAI ENGINEERING COLLEGE, Potheri, Chennai. 🏛️📍 <br />
-              <br />
-              12. Power outlets and worksheets will be provided to all teams
-              prior to the commencement of the event. 🔌📑 <br />
-              <br />
-              13. All technical and physical requirements for the projects
+              10. All technical and physical requirements for the projects
               should be brought by the team only, and no assistance will be
               provided in this case. ⚙️🛠️🚫
               <br /> <br />
-              14. Teams must present their projects in a clear and organized
-              manner during the finale, ensuring effective communication of
-              their ideas. 🗣️📊
+              11. 🔥 Don't let this opportunity slip away – join us at Code Cubicle 2.0, where collaboration reigns supreme and innovation knows no bounds! Save the date and be part of this extraordinary tech extravaganza! 🌐
             </div>
           </div>
         </div>

@@ -36,6 +36,7 @@
 }
 
 .tag-hero-mobile {
+ 
   display: flex;
   align-items: flex-end;
   gap: 1vw;
@@ -50,11 +51,20 @@
   }
 }
 
+.ccContainer{
+
+}
+
 .hero-srm-logo {
+
   
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     width: 20vw;
   }
+}
+
+.hero-srmvec-logo{
+
 }
 
 .hero-srmvec-logo {

@@ -27,25 +27,36 @@ const schedule = () => {
     <React.Fragment>
       <div className="mainSchedule" id="schedule">
         <div className="parent-schedule">
+
           <div className="schedule-title">
             <img src="/images/BulletPoint.svg" alt="arrow-logo" />
             Schedule
           </div>
+
           <div className="schedule-title1">
             July 27 [online] 
           </div>
+
           <div className="timeline" id="timeline">
+
             <div className="container" id="timeline-container">
+
               <h2 className="date">
+
                 <div>
                   8:00 A.M
-                 
                 </div>
+
               </h2>
-              <h2 className="container-title">Hackathon Begins</h2>
+
+              <h2 
+              className="container-title">
+                Hackathon Begins
+              </h2>
               
               <span className="circle"></span>
             </div>
+
             <div className="container ">
               <h2 className="container-title">Idea Submission Deadline</h2>
               <h1 className="date">
@@ -100,6 +111,7 @@ const schedule = () => {
               
               <span className="circle"></span>
             </div>
+
             <div className="container ">
               <h2 className="container-title">Presentation Round</h2>
               <h1 className="date">
@@ -110,6 +122,7 @@ const schedule = () => {
               
               <span className="circle"></span>
             </div>
+
             <div className="container ">
               <h1 className="date">
                 <div>
@@ -117,16 +130,14 @@ const schedule = () => {
                 </div>
               </h1>
               <h2 className="container-title">Lunch</h2>
-              
-
               <span className="circle"></span>
             </div>
+
             <div className="container ">
               <h2 className="container-title">Result Declaration</h2>
               <h1 className="date">
                 <div>
                   5:00 P.M
-                  
                 </div>
               </h1>
               

@@ -70,96 +70,68 @@ const events = () => {
               {" "}
               <h1>Registration</h1>
               <p>
-                🔗 Scan the QR in the poster or search www.hackatank.tech and
-                register for the event.
+              - The registration for Code Cubicle 2.0 ends at 22nd July 2024
                 <br /> <br />
-                1️⃣ It will redirect you to the respective Google forms. Kindly
-                fill in the requested details.
+                - Participants can register themselves through Devfolio Platform at <a href="https://code-cubicle-
+2.devfolio.co/">https://code-cubicle-
+2.devfolio.co/</a>
                 <br /> <br />
-                2️⃣Our registration team will contact you further upon
-                registration.
+                - The Participants have to fill out their details such as Github and LinkedIn Profiles which
+shall be used while scrutinization.
                 <br /> <br />
-                3️⃣For any queries/issues, kindly check the contacts column for
-                Point of Contact (POC).
+                - The Participants can make a team of 1-4 members for the hackathon registration.
                 <br /> <br />
-                4️⃣Last date for registration is on or before the 25th of August
-                2023.
-                <br /> <br />
-                5️⃣The first round is free for all the teams that register for
-                the event.
               </p>
             </div>
           </div>
           <div className="section-content stage2-content">
             <div className="section-format">
               <h1>
-                Abstract Submission
-                <span className="stage2-reference" onClick={handleAbstract}>
-                  <span>click here to downlaod -</span>
-                  ABSTRACT SUBMISSION REFERENCE
-                </span>
+              Scrutinization and Batch Announcement:
+              
               </h1>
               <p>
-                📋 The problem statements are available on the home page, and it
-                is provided at the bottom of this page as a PDF for downloading.
+              - Post the registrations the team’s profiles are evaluated by our expert teams and worth
+contenders are selected to participate in the hackathon.
                 <br /> <br />
-                📥 We also accept your own/inspired problem statements for
-                review. Kindly submit it as an abstract and the registration
-                team will contact you.
+                - The Teams are selected on based of the member’s Github Profiles, LinkedIn Profiles.
                 <br /> <br />
-                📝 The abstract format is given at the top right of this page as
-                a PDF for downloading. Kindly download and use it for reference.
+                - The selected teams will be announced in batches.
                 <br /> <br />
-                📄 Abstract of the project must be submitted only in PDF file
-                format.
-                <br /> <br />⏰ The last date for abstract submission is on or
-                before the 28th of August 2023.
+                - The Teams will be informed through email and on their Devfolio account.
+                <br></br>
               </p>
             </div>
           </div>
           <div className="section-content stage3-content">
             <div className="section-format">
-              <h1>Scrutinization</h1>
+              <h1>Online Round</h1>
               <p>
-                🔍 The teams will be shortlisted by the judging panel on various
-                criteria which includes the scope of the project, execution
-                ideology, etc.
+              - The selected teams will be eligible to participate in our online round on 27
+th July 2024.
                 <br /> <br />
-                📢 The scrutinized/shortlisted teams for the final round of
-                "HACK-A-TANK" will be announced on the 30th of August 2023.
+                - In this round the participants will be asked to present their ideations to the mentors in a 5-
+15 Minute Window during which our expert mentors will be evaluating the participants on
+their Idea, Demo, Project Presentation and QnA.
                 <br /> <br />
-                💰 The Shortlisted team should proceed with their registration
-                by completing the payment of Rs 999/- per team on or before 3rd
-                September 2023.
+                - The selected participants will be eligible to join us for the Final Offline Round.
                 <br /> <br />
-                🔄 After the completion of payment, the registration team will
-                assess you for the further procedures of the final round.
+               
               </p>
             </div>
           </div>
           <div className="section-content stage4-content">
             <div className="section-format">
-              <h1>The Grand Finale</h1>
+              <h1>Final Offline Round</h1>
               <p>
-                🎉 The commencement of the inaugural function is scheduled at
-                10:00 am on the 8th of September 2023.
+              - The selected teams will be invited to Microsoft Office, Gurugram to compete against the
+best of the best teams.
                 <br /> <br />
-                ⏱️ The "HACK-A-TANK" event will begin at 1:00 pm on the 8th of
-                September 2023 and will wrap up at 1:00 pm on the 9th of
-                September 2023.
+                - The teams will have to present their idea to our amazing panel of judges who will evaluate
+the participants on the basis of their project and presentation.
                 <br /> <br />
-                🍔🍕 The lunch and dinner for the 8th of September will be
-                provided by the organizing committee to the participants.
-                <br /> <br />
-                🍳🍔 The breakfast and lunch for the 9th of September will be
-                provided by the organizing committee to the participants.
-                <br /> <br />
-                🍪 Refreshments will be provided to all the participating teams
-                at all feasible times by the organizing committee.
-                <br /> <br />
-                🏆 The event will be concluded with the announcement of the cash
-                prize winners of the "HACK-A-TANK" event on the 9th of September
-                2023 by 4:00 pm.
+                 
+                We are super excited to meet you guys and LET THE BEST TEAM WIN THE TITLE.
               </p>
             </div>{" "}
           </div>

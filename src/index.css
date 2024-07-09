@@ -184,7 +184,7 @@ p {
   inset: 0;
   background-size: cover;
   opacity: 0.5;
-  background-image: url("/images/bg4.webp");
+  background-image: url("/images/EventsBG.png");
   animation: hue 5s linear infinite;
   top: -1vh;
 }
@@ -213,7 +213,7 @@ p {
   background-size: cover;
   background-position: center;
   opacity: 0.7;
-  background-image: url("/images/bg6.webp");
+  background-image: url("/images/GuidelinesBG.png");
   top: -1vh;
 }
 .set2-bg {
@@ -250,7 +250,7 @@ p {
   inset: 0;
   background-size: 100%;
   opacity: 0.5;
-  background-image: url("/images/bg2.webp");
+  background-image: url("/images/ProblemStatementBG.webp");
 }
 @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
   .set1-bg::after {

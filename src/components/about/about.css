@@ -25,8 +25,8 @@
   position: absolute;
   z-index: -1;
   inset: 0;
-  opacity: 0.1;
-  background-image: url("/images/jigsaw.svg");
+  opacity: 1;
+  background-image: url("/images/AboutBG.webp");
 }
 .about-title {
   text-transform: uppercase;
@@ -34,8 +34,7 @@
   font-weight: 900;
   font-size: 5vw;
   text-align: center;
-  background-color: #a4508b;
-  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  background-color: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,14 +60,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-right: 12px;
   font-family: russo one;
   font-size: 3vw;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background-color: #a4508b;
-  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  background-color: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -88,7 +86,7 @@
   padding: 4vh 2vw;
   border-top: 5px solid;
   position: relative;
-  z-index: 99;
+  opacity: 0.1;
   border-right: 5px solid;
   border-bottom: 5px solid;
   margin-left: -3vw;
@@ -113,7 +111,7 @@
   font-weight: 600;
   position: relative;
   isolation: isolate;
-  background: rgb(0, 0, 0, 0.9);
+  background: rgb(0, 0, 0, 0.321);
   color: white;
 
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -127,9 +125,9 @@
   content: "";
   position: absolute;
   inset: 0;
-  z-index: -1;
-  opacity: 0.5;
-  background-image: url("/images/flurry.svg");
+  z-index: 0;
+  opacity: 0.1;
+  /* background-image: url("/images/flurry.svg"); */
   /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12'%3E%3Cpath d='M9.8 12 0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z' fill='%239C92AC' fill-opacity='.26' fill-rule='evenodd'/%3E%3C/svg%3E"); */
 }
 
@@ -157,8 +155,8 @@
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background-color: #a4508b;
-  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  background-color: white;
+
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -201,7 +199,7 @@
   font-weight: 600;
   position: relative;
   isolation: isolate;
-  background: rgb(0, 0, 0, 0.9);
+  background: rgb(0, 0, 0, 0.321);
   color: white;
   opacity: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -218,7 +216,7 @@
   inset: 0;
   z-index: -1;
   opacity: 0.7;
-  background-image: url("/images/flurry.svg");
+  /* background-image: url("/images/flurry.svg"); */
   /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12'%3E%3Cpath d='M9.8 12 0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z' fill='%239C92AC' fill-opacity='.26' fill-rule='evenodd'/%3E%3C/svg%3E"); */
 }
 
@@ -257,8 +255,7 @@
   letter-spacing: 2px;
   font-size: 3.5vw;
   font-weight: 900;
-  background-color: #a4508b;
-  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  background-color: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -301,7 +298,7 @@
   font-weight: 600;
   position: relative;
   isolation: isolate;
-  background: rgb(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.321);
   color: white;
   opacity: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -318,7 +315,7 @@
   inset: 0;
   z-index: -1;
   opacity: 0.7;
-  background-image: url("/images/flurry.svg");
+  /* background-image: url("/images/flurry.svg"); */
 }
 
 .whitehatians {
@@ -348,8 +345,7 @@
   letter-spacing: 2px;
   font-size: 3.5vw;
   font-weight: 900;
-  background-color: #a4508b;
-  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  background-color: white;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -392,7 +388,7 @@
   font-weight: 600;
   position: relative;
   isolation: isolate;
-  background: rgb(0, 0, 0, 0.9);
+  background: rgb(0, 0, 0, 0.321);
   color: white;
   opacity: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -409,7 +405,7 @@
   inset: 0;
   z-index: -1;
   opacity: 0.7;
-  background-image: url("/images/flurry.svg");
+  /* background-image: url("/images/flurry.svg"); */
   /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12'%3E%3Cpath d='M9.8 12 0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z' fill='%239C92AC' fill-opacity='.26' fill-rule='evenodd'/%3E%3C/svg%3E"); */
 }
 
@@ -452,6 +448,8 @@
 
 .about-srm-logo {
   width: 7vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     width: 10vw;
   }

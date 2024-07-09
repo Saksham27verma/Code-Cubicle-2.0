@@ -136,7 +136,7 @@
   width: 0;
   left: 0;
   bottom: 0;
-  background-color: rgb(190, 52, 176);
+  background-color: rgb(211, 210, 211);
 }
 .components ul li p:hover {
   scale: 1.1;
@@ -227,7 +227,7 @@
 .navbar-open ul li p {
   font-family: poppins;
   font-weight: 500;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   animation: fadeNav 0.5s ease-in-out forwards;
 }
 @keyframes fadeNav {
@@ -247,7 +247,7 @@
   width: 0;
   left: 0;
   bottom: 0;
-  background-color: rgb(190, 52, 176);
+  background-color: rgb(211, 210, 211);
 }
 .navbar-open ul li p:hover {
   scale: 1.1;

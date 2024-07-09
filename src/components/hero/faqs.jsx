@@ -47,142 +47,163 @@ const faqs = () => {
         <div className="faqs-section">
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is a hackathon?
+            What is Code Cubicle and what makes it unique?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              A hackathon is a social coding event that brings computer
-              programmers and other interested people together to improve upon
-              or build a new software program or a hardware solution for the
-              provided problem statements.
+            The Code Cubicle 2.0 is a groundbreaking hackathon organized by Geek Room. It provides a unique experience, redefining the boundaries of creativity and technology, transcending conventional hackathons.
             </p>
           </div>
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is “Hack-A-Tank”?
+            When and where is Code Cubicle 2.0 2024 taking place?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              Hack-A-Tank is the first 24-hour national-level hackathon
-              organized by the SRM Valliammai engineering college in
-              collaboration with Whitehatians – Club of the Department of Cyber
-              Security and the Student Branch of Computer Society of India (CSI-
-              SB).
+            Code Cubicle 2.0 2024 is an offline event scheduled for 3rd August. The venue is Microsoft Office, Gurugram. It's a hackathon that promises an immersive experience in tech innovation
             </p>
           </div>
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              Who can participate?
+            What is the prize pool for Code Cubicle 2.0, and how are the prizes distributed?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              Hack-A-Tank is open to all undergraduate students from all
-              colleges across India.
+            Code Cubicle boasts a prize pool worth INR 300000+, with a cash prize worth INR 10,000+. Details about the prize distribution will be announced closer to the event.
             </p>
           </div>
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              How much is the registration fee?
+            What engaging activities can participants expect during Code Cubicle 2.0?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              After the scrutiny process, the organizing committee will release
-              the shortlisted teams for the finale. The selected team must pay a
-              registration fee of Rs. 1000/- per team, which includes GST. It
-              contributes to goodie bags, food, and refreshments served during
-              the event. The registration fee is non-refundable and
-              non-transferable. Teams are advised to complete the registration
-              process as soon as possible to secure their participation in the
-              event. Upon successful completion of the registration, teams will
-              receive further instructions from the organizing committee.
+            Code Cubicle 2.0 features live project presentations, idea pitching, judging by esteemed panels, and a fun and games round with prizes to keep participants engaged throughout the hackathon.
             </p>
           </div>
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              Is the hackathon online or offline?
+            What exclusive perks are provided to participants?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              The first round will be abstract submission which is completely
-              done in virtual mode. Further upon registration, you will be
-              contacted by our team and given a brief on the process of abstract
-              submission. The shortlisted team should appear physically for the
-              final.
+            Participants at Code Cubicle 2.0 enjoy exclusive perks, including free swags, networking opportunities with industry experts, goodies, accommodation, meals, and much more, enhancing their overall experience.
             </p>
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              How to register for the hackathon?
+            How does Code Cubicle 2.0 encourage innovation and problem-solving?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              Click the register button on the home page and you will be
-              directed to the respective Google form. Kindly submit the required
-              details and our organizing team will contact you as soon as
-              possible.
+            Code Cubicle 2.0 challenges participants to push their boundaries and foster inventive solutions to real-world issues. It celebrates the union of innovation and technology, providing a platform for participants to showcase their skills.
             </p>
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is the prize money of the winning team?
+            Who are the organizers of Code Cubicle 2.0, and what is their mission?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              The event has a prize pool of Rs 25,000 for the winners.
+            Code Cubicle 2.0 is hosted by the team efforts of Geek Room. Their mission is to provide a platform for tech enthusiasts to showcase their skills and amplify their potential through an exciting blend of competition, learning, and groundbreaking innovation.
             </p>
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What is the team size to participate in the Hack-A-Tank?
+            How can participants connect with like-minded individuals and industry experts during Code Cubicle?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              The teams must have a minimum of 2 members and a maximum of 3
-              members.
+            Participants can connect with like-minded individuals and industry experts through networking sessions, project collaborations, and various interactive opportunities provided during Code Cubicle 2.0. It's a unique chance to learn, compete, and establish valuable connections.
             </p>
           </div>
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              What are the prerequisites considered for registering?
+            How can I stay updated on Code Cubicle 2.0 announcements and details?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
               />
             </h1>
             <p className="faqs-content-description">
-              Participants may need to have knowledge and skills in areas such
-              as electronics, programming, data analytics, and IoT technologies,
-              depending on the theme of the hackathon. Participants must need to
-              bring their own laptops, sensors, microcontrollers, and other
-              necessary tools and equipment.
+            Stay updated on Code Cubicle 2.0 announcements and details by regularly checking the official website. Additionally, follow their social media channels for the latest news and updates regarding the event.
+            </p>
+          </div>
+
+          <div className="faqs-content" onClick={handleArrow}>
+            <h1 className="faqs-content-title">
+            What is the maximum team size allowed for Code Cubicle 2.0?
+              <ChevronRightIcon
+                style={styles.container}
+                className="faqs-arrow"
+              />
+            </h1>
+            <p className="faqs-content-description">
+            The maximum team size allowed for Code Cubicle 2.0 is 4 members. Participants can form teams with a minimum of 1 member and a maximum of 4 members.
+            </p>
+          </div>
+          <div className="faqs-content" onClick={handleArrow}>
+            <h1 className="faqs-content-title">
+            Can I participate as an individual, or is it mandatory to be part of a team?
+              <ChevronRightIcon
+                style={styles.container}
+                className="faqs-arrow"
+              />
+            </h1>
+            <p className="faqs-content-description">
+            Code Cubicle 2.0 allows both individual and team participation. You can register as an individual and participate solo, or you can form a team with up to 3 other members.
+            </p>
+          </div>
+          <div className="faqs-content" onClick={handleArrow}>
+            <h1 className="faqs-content-title">
+            Are there any specific requirements for the projects that participants can work on?
+              <ChevronRightIcon
+                style={styles.container}
+                className="faqs-arrow"
+              />
+            </h1>
+            <p className="faqs-content-description">
+            Participants in Code Cubicle 2.0 have the flexibility to choose the type of projects they want to work on. There are no specific requirements, allowing participants to showcase their creativity and skills by working on innovative solutions to real-world issues.
+            </p>
+          </div>
+          <div className="faqs-content" onClick={handleArrow}>
+            <h1 className="faqs-content-title">
+            What should I bring to Code Cubicle 2.0, and what will be provided by the organizers?
+              <ChevronRightIcon
+                style={styles.container}
+                className="faqs-arrow"
+              />
+            </h1>
+            <p className="faqs-content-description">
+            Participants are encouraged to bring their laptops and any specific tools or hardware they may need for coding. Organizers will provide the necessary infrastructure, but participants should ensure they have everything they need for a successful hacking experience.
             </p>
           </div>
         </div>

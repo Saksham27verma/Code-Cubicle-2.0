@@ -84,7 +84,7 @@ const Navbar = () => {
   };
   return (
     <React.Fragment>
-      <div className="parent">
+      <div  className="parent">
         <div className="components">
           <div className="title" onClick={() => window.open("/", "_self")}>
 
@@ -139,16 +139,25 @@ const Navbar = () => {
               <p onClick={() => window.open("/", "_self")}>Home</p>
             </li>
             <li>
-              <p onClick={() => handleScroll("#agenda")}>Agenda</p>
+              <p onClick={() => handleScroll("#agenda")}>About</p>
             </li>
             <li>
               <p onClick={() => handleScroll("#schedule")}>Schedule</p>
             </li>
             <li>
+              <p onClick={() => handleScroll("#sponsors")}>Sponsors</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#prizes")}>Prizes</p>
+            </li>
+            <li>
               <p onClick={() => handleScroll("#faqs")}>FAQs</p>
             </li>
             <li>
-              <p onClick={() => handleScroll("#contact")}>Contact</p>
+              <p onClick={() => handleScroll("#judges")}>Judges</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#leadorganisers")}>Lead Organisers</p>
             </li>
           </ul>
           <div className="last">
@@ -168,23 +177,32 @@ const Navbar = () => {
             />
           </div>
           <div className="navbar-open navbar-close-mobile">
-            <ul>
-              <li>
-                <p onClick={() => window.open("/", "_self")}>Home</p>
-              </li>
-              <li>
-                <p onClick={() => handleScroll("#agenda")}>Agenda</p>
-              </li>
-              <li>
-                <p onClick={() => handleScroll("#schedule")}>Schedule</p>
-              </li>
-              <li>
-                <p onClick={() => handleScroll("#faqs")}>FAQs</p>
-              </li>
-              <li>
-                <p onClick={() => handleScroll("#contact")}>Contact</p>
-              </li>
-            </ul>
+          <ul>
+            <li>
+              <p onClick={() => window.open("/", "_self")}>Home</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#agenda")}>About</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#schedule")}>Schedule</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#sponsors")}>Sponsors</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#prizes")}>Prizes</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#faqs")}>FAQs</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#judges")}>Judges</p>
+            </li>
+            <li>
+              <p onClick={() => handleScroll("#contact")}>Lead Organisers</p>
+            </li>
+          </ul>
           </div>
         </div>
       </div>

@@ -32,7 +32,7 @@ const section2 = () => {
       <div className="section2">
         <div className="agenda" id="agenda">
           <div className="title2">
-          <img className="agendaBulletPoint" src="/images/BulletPoint.svg" alt="arrow-logo" />
+            <img src="/images/BulletPoint.svg" alt="arrow-logo" />
             <h1 className="title-name">About Code Cubicle</h1>
           </div>
           {/* <div className="agenda-text">
@@ -69,41 +69,38 @@ const section2 = () => {
           <div className="vision">
             <div className="about-vision-title " id="agenda-left">
               <img
-                src="/images/vision.webp"
+                src="/images/CC.png"
                 alt="vision-image"
-                width="300px"
+                width="250px"
                 className="about-vision-image"
               />
-              
             </div>
             <div className="about-vision-description" id="agenda-right">
-              Empowering Innovators to Transform Tomorrow. Our hackathon
-              envisions a world where creative minds converge to tackle pressing
-              challenges, forging solutions that redefine possibilities. Through
-              dynamic collaboration, cutting-edge technology, and unwavering
-              determination, we ignite a spark that sparks real change. Join us
-              to hack a brighter future and leave an indelible mark on the
-              landscape of innovation.
+              Code Cubicle is not just a competition; it's an adrenaline-fueled
+              journey where coding prowess meets imaginative thinking. Set in
+              the prestigious Ecosphere Coworking, this event is a beacon of
+              tech excellence, attracting a vibrant mix of students,
+              professionals, and tech enthusiasts.
             </div>
           </div>
           <div className="mission">
             <div className="about-mission-title" id="agenda-right">
               <img
-                src="/images/target.webp"
+                src="/images/chinki.png"
                 alt="mission-image"
-                width={"250px"}
+                width={"450px"}
                 className="about-mission-image"
               />
-
             </div>
             <div className="about-mission-description" id="agenda-left">
-              Fueling innovation, our hackathon is a nexus of minds reimagining
-              solutions for a dynamic world. Through tech-driven teamwork, we
-              catalyze change, pushing boundaries and shaping the future. Join
-              us to ideate, collaborate, and leave an indelible mark on the
-              tapestry of progress.we ignite a spark that sparks real change.
-              Join us to hack a brighter future and leave an indelible mark on
-              the landscape of innovation
+              At Code Cubicle, innovation takes center stage as brilliant minds
+              converge to create solutions for an ever-evolving world. This
+              hackathon is a catalyst for change, where collaborative tech
+              efforts break new ground and pave the way for the future. Be part
+              of this journey to brainstorm, partner, and make a lasting impact
+              on the canvas of technological progress. Join us to ignite
+              meaningful change and carve out a brighter, more innovative
+              future.
             </div>
           </div>
         </div>

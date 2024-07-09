@@ -41,28 +41,15 @@ const about = () => {
         <div className="foundation">
           <div className="foundation-title " id="about-right">
             <img
-              src="/images/srm.webp"
+              src="/images/GeekRoomLogoFinal.png"
               alt="srm logo"
               className="about-srm-logo"
             />
-            Foundation Day Celebration
-            <img
-              src="/images/srmvec.webp"
-              alt="srmvec logo"
-              className="about-srmvec-logo"
-            />
+            Geek Room
+            
           </div>
           <div className="foundation-description" id="about-left">
-            SRM Valliammai Engineering college (An Autonomous Institution) was
-            established on 9th September, 1999. The SRM Valliammai Engineering
-            College is a part of the SRM Group of Educational Institutions,
-            sponsored by the Valliammai Society. The Valliammai Society was
-            founded by Dr.T.R.Paarivendhar , a well-known educationist, in the
-            name of his mother Tmt. R.Valliammai, under whose care and guidance
-            he attained greater heights in his personal development and whose
-            ideals continue to inspire him. On this auspicious moment we
-            celebrate the 25th Foundation Day of SRM Valliammai Engineering
-            college by organising Hackathon on 8th September, 2023.
+          GeekRoom is the thriving hub of technical enthusiasts where innovation meets camaraderie. With over 10000+ active members, Geek Room stands tall as one of the emergent technical communities in Delhi, boasting established chapters in numerous colleges across the city.
           </div>
         </div>
 
@@ -74,18 +61,23 @@ const about = () => {
           >
             <img
               className="about-srmvec-logo"
-              src="/images/srmvec.webp"
+              src="/images/CodeKshetraLogo.svg"
               alt="srmvec logo"
             />
-            About Srmvec
+            <img
+              className="about-srmvec-logo"
+              src="/images/CCLogo.png"
+              alt="srmvec logo"
+            />
+            <img
+              className="about-srmvec-logo"
+              src="/images/CCLogo.png"
+              alt="srmvec logo"
+            />
+
           </div>
           <div className="about-srmvec-description" id="about-right">
-            SRM Valliammai Engineering college (An Autonomous Institution) was
-            established on September 9, 1999 and presently conducts 11 Under
-            graduate courses and 8 Post graduate courses. The college has highly
-            qualified, dynamic and dedicated renowned faculty both from academic
-            and industrial background. The serene atmosphere with the
-            surrounding greenery is conductive to the pursuit of higher studies.
+          Since its inception, Geek Room has been dedicated to nurturing a culture of innovation and creativity within the realm of computer science. Our mission is simple yet profound: to provide a platform for like-minded individuals to collaborate, learn, and push the boundaries of technology.
           </div>
         </div>
         <div className="csi">
@@ -94,24 +86,14 @@ const about = () => {
             id="about-right"
             onClick={() => handleWebClicks("http://www.csi-kancheepuram.org/")}
           >
-            <img
-              className="about-csi-logo"
-              src="/images/csi1.webp"
-              alt="csi logo"
-            />
-            About csi
+            
+
           </div>
           <div className="about-csi-description" id="about-left">
-            Computer Society of India is a body of computer professionals in
-            India. It was started on 6 March 1965 by a few computer
-            professionals and has now grown to be the national body representing
-            computer professionals. It has 72 chapters across India, 511 student
-            branches, and 100,000 members. The society promotes knowledge
-            sharing,and professional development in the field of computer
-            science.
+          At Geek Room, we believe in the power of community-driven learning and support. Whether you're a seasoned expert or a curious beginner, our community is here to guide you through competitions, projects, hackathons, and various other technical endeavors.
           </div>
         </div>
-        <div className="whitehatians">
+        {/* <div className="whitehatians">
           <div
             className="about-whitehatians-title"
             id="about-left"
@@ -133,7 +115,7 @@ const about = () => {
             the field, gain hands-on experience, and prepare for careers in
             cyber security.
           </div>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
   );

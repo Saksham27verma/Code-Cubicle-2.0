@@ -194,6 +194,15 @@
     display: none;
   }
 }
+
+.about-vision-title{
+  margin-left: 15vw;
+}
+
+.about-mission-title{
+  margin-right: 15vw;
+}
+
 .vision {
   display: flex;
   align-items: center;

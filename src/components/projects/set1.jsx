@@ -21,185 +21,62 @@ const set1 = () => {
   return (
     <React.Fragment>
       <div className="parent-software">
-        <h1 className="parent-software-title">Projects - Set 1</h1>
+        <h1 className="parent-software-title">Problem Statements</h1>
         <p className="projects-disclaimer">
-          OWN/UNIQUE PROBLEM STATEMENTS ARE ALSO WELCOMED - Kindly intimate when
-          speaking with registration team
+        Explore and Tackle Unique and Exciting Challenges
         </p>
         <div className="software-container">
           <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Elderly Care</h1>
+            <h1 className="software-content-title">Personalized Learning</h1>
             <p className="software-content-description projects-close">
-              Develop a user-friendly device or system that helps elderly
-              individuals with medication reminders, fall detection, activity
-              tracking, and social interaction
+            Traditional education often follows a one-size-fits-all approach, which may not cater to the diverse learning needs of students. Technology can facilitate personalized learning experiences by utilizing adaptive learning platforms, AI-driven tutors, and learning analytics to tailor educational content and pace to individual student abilities and preferences.
             </p>
           </div>
 
           <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Energy Conservation</h1>
+            <h1 className="software-content-title">Gamified Homework Assignments</h1>
             <p className="software-content-description projects-close">
-              Develop a smart energy monitoring and management system for homes
-              or businesses that optimizes power consumption, identifies
-              wastage, and encourages energy-saving behaviour
+            Design a gamified homework platform that transforms traditional assignments into interactive quests, challenges, or simulations, incentivizing students to complete tasks, review concepts, and earn rewards while having fun and learning.
             </p>
           </div>
 
           <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Traffic Management</h1>
+            <h1 className="software-content-title">Rehabilitation</h1>
             <p className="software-content-description projects-close">
-              Design a smart traffic management system that uses real-time data
-              from cameras, sensors, and vehicle-to-vehicle communication to
-              optimize traffic flow and reduce congestion
+            Can you find ways to incorporate enjoyable activities into the recovery process so that it can provide a sense of accomplishment, help reduce stress, and provide a sense of purpose and meaning in life to people recovering from various problems such as addiction, therapies etc
             </p>
           </div>
 
           <div className="software-content" onClick={handleSoftwareView}>
             <h1 className="software-content-title">
-              Waste Management and Recycling Optimization
+            Affordability
             </h1>
             <p className="software-content-description projects-close">
-              Develop an intelligent system that optimizes waste collection and
-              recycling processes in urban areas. The solution could include
-              real-time data analysis, route optimization, and incentivizing
-              citizens to participate actively in recycling initiatives.
+            Rising healthcare costs make it difficult for individuals and families in rural areas to afford necessary medical treatments, medications, and insurance premiums. Can you ponder upon this problem and find some unique solutions?
             </p>
           </div>
 
           <div className="software-content" onClick={handleSoftwareView}>
             <h1 className="software-content-title">
-              Cybersecurity for IoT Devices
+            Money Management for Young Adults
             </h1>
             <p className="software-content-description projects-close">
-              Build a security solution to protect Internet of Things (IoT)
-              devices from potential threats and vulnerabilities. The solution
-              should ensure data privacy, integrity, and device authentication
-              to prevent unauthorized access
+            Young adults (aged 18-25) are financially savvy but lack the tools and guidance to confidently navigate their financial futures. Design an inclusive FinTech solution that empowers them to manage their money effectively and build a secure financial foundation.
             </p>
           </div>
           <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Smart Home Innovation</h1>
+            <h1 className="software-content-title">Fraud and Security</h1>
             <p className="software-content-description projects-close">
-              Develop a cost-effective and energy-efficient smart home system
-              that integrates various devices (lights, thermostat, security,
-              etc.) and can be controlled through a single platform or using
-              voice commands
+            Financial fraud, including identity theft, payment fraud, and cyberattacks, are really common these days. Can blockchain or tech in general help in this matter?
             </p>
           </div>
           <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Healthcare Tech</h1>
+            <h1 className="software-content-title">Open Innovation</h1>
             <p className="software-content-description projects-close">
-              Design a wearable device that monitors vital signs (heart rate,
-              blood pressure, oxygen levels) accurately and in real-time,
-              transmitting data to healthcare professionals or loved ones{" "}
+            This is the real “open” open innovation, just build anything that solves a real world problem
             </p>
           </div>
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Agricultural Automation</h1>
-            <p className="software-content-description projects-close">
-              Build an automated system that optimizes irrigation,
-              fertilization, and pest control in a greenhouse or field,
-              utilizing sensors and actuators for better crop yield and resource
-              efficiency
-            </p>
-          </div>
-
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Assistive Technology</h1>
-            <p className="software-content-description projects-close">
-              Develop a device or solution that aids individuals with
-              disabilities, such as a wearable for visually impaired people that
-              provides realtime navigation assistance or a device that enhances
-              communication for those with speech impairments{" "}
-            </p>
-          </div>
-
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">
-              Transportation & Logistics
-            </h1>
-            <p className="software-content-description projects-close">
-              Prototype of a Solar Powered IOT Device with the ability to
-              connect to a smart network to be used in Geo Tagging of Physical
-              Assets Created under CSR
-            </p>
-          </div>
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">
-              Mental Health and Wellness Support
-            </h1>
-            <p className="software-content-description projects-close">
-              Develop a mental health device that provides users with resources
-              for stress management, mindfulness exercises, and access to
-              virtual therapy sessions to promote overall well-being.
-            </p>
-          </div>
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Disaster Management:</h1>
-            <p className="software-content-description projects-close">
-              Suggest and develop an innovative approach for redeveloping the
-              centralized sewage treatment plants and help the city managers to
-              better adopt decentralized approaches and ensure water resources
-              through reuse.{" "}
-            </p>
-          </div>
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Fire suppressant</h1>
-            <p className="software-content-description projects-close">
-              A material which can be installed in the confined spaces of a
-              submarine there by suppressing a fire in the initial stages only.
-              The material should be available in multiple options such as pads
-              for flooring, wire or cable’s covering, covers and tapes which can
-              be applied on small places which are deemed hazardous from the
-              fire-safety perspective. The fire suppressant should release the
-              extinguishing agent stored in the form of micro-capsules at a
-              specific temperature{" "}
-            </p>
-          </div>
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title ">
-              Sustainable Solutions for Urban Mobility
-            </h1>
-            <p className="software-content-description projects-close">
-              Develop an application or system that addresses the challenges of
-              urban transportation, promoting sustainable alternatives such as
-              cycling, walking, or public transport. Consider factors like
-              traffic congestion, air pollution, and ease of access for all
-              citizens.
-            </p>
-          </div>
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">
-              Smart firefighting breathing apparatus
-            </h1>
-            <p className="software-content-description projects-close">
-              It is intend to design add-on smart features to the existing
-              Breathing Apparatus (BA) sets. To increase the efficiency and
-              safety of crew in Fire Fighting Organization, smart fire-fighting
-              BA has been proposed as an addon to the existing breathing
-              apparatus which can monitor parameters such as pressure, breathing
-              rate and time remaining and convey the same to fire-fighting
-              attendant using wireless means{" "}
-            </p>
-          </div>
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">Wildlife Conservation</h1>
-            <p className="software-content-description projects-close">
-              Build a wildlife tracking and monitoring system using GPS,
-              sensors, and cameras to gather data on animal behaviour and
-              habitat, aiding in conservation efforts.{" "}
-            </p>
-          </div>
-          <div className="software-content" onClick={handleSoftwareView}>
-            <h1 className="software-content-title">
-              Sustainable Transportation
-            </h1>
-            <p className="software-content-description projects-close">
-              Make a prototype for an efficient and eco-friendly transportation
-              system, like a solar-powered electric vehicle charging station or
-              an electric bike charge sharing technique
-            </p>
-          </div>
+          
         </div>
       </div>
     </React.Fragment>
