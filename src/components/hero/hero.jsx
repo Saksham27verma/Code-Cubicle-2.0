@@ -50,13 +50,21 @@ const hero = () => {
     window.open("https://code-cubicle-2.devfolio.co");
   };
   const handleCardClicks = (card) => {
-    ReactGA.event({
-      category: "Button",
-      action: "click",
-      label: `${card}`,
-    });
-    window.open(`${card}`, "_self");
-  };
+    // Log the card URL for debugging purposes
+    console.log("Navigating to:", card);
+
+    // Ensure card is a valid URL
+    try {
+        const url = new URL(card, window.location.origin);
+        console.log("Resolved URL:", url.href);
+
+        // Open the card URL in the same window
+        window.open(url.href, "_self");
+    } catch (error) {
+        console.error("Invalid URL:", card, error);
+    }
+};
+
   const [countdown, setCountdown] = useState({
     days: 0,
     hours: 0,
@@ -164,7 +172,7 @@ coding experience in the town.
               <div>
                 {" "}
                 <img
-                  src="../../public/Images/Devfolio logo.png"
+                  src="/images/Devfolio logo.png"
                   width={30}
                 ></img>
               </div>
